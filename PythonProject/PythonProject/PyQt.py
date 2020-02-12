@@ -1,0 +1,21 @@
+from PyQt5.QtWidgets import *
+app = QApplication([])
+window = QWidget()
+layout = QVBoxLayout()
+layout.addWidget(QPushButton('average'))
+layout.addWidget(QPushButton('min temp'))
+window.setLayout(layout)
+window.show()
+button = QPushButton('average')
+def on_button_clicked():
+    alert = QMessageBox()
+    alert.setText('The average temperature is 18.4')
+    alert.exec_()
+button.clicked.connect(on_button_clicked)
+button.show()
+button = QPushButton('min temp')
+def on_button_clicked():
+    alert = QMessageBox()
+    alert.setText('The minimum temperature is 15')
+    alert.exec()
+app.exec_()
