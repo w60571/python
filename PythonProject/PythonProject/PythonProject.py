@@ -14,12 +14,15 @@ dict = {"date": [np_date],
 import pandas as pd
 brics = pd.DataFrame(dict)
 print(brics)
+
 import matplotlib.pyplot as plt
-import numpy as np
-x = np.array(temp)
-plt.plot(x, x, label='temp')
-plt.legend()
+plt.plot([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [25, 21, 16, 18, 15, 20, 18, 15, 17, 19], 'ro')
+plt.axis([0, 6, 0, 26])
+plt.xlabel('days')
+plt.ylabel('temp(C)')
 plt.show()
+
+
 
 
 
