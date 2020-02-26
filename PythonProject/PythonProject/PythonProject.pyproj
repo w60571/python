@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf580b27-1da3-4681-860f-92125d0d425a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonProject.py</StartupFile>
+    <StartupFile>PyQt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
